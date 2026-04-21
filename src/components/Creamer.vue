@@ -3,7 +3,7 @@
     <div
       v-for=" in 5"
       class="foam"
-      :style="{ backgroundColor: beverageStore.currentCreamer?.color }"
+      :style="{ backgroundColor: beverageStore.currCreamer?.color }"
     ></div>
   </div>
 </template>
